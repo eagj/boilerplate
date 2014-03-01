@@ -2,3 +2,23 @@ li ul li {
 	margin-bottom: 20px;
 	color:grey;
 }
+
+.especial{
+	background-color: grey;
+}
+.villanos{
+	background-color: #000;
+	color:white;
+}
+
+nav{
+	position: fixed;
+	width: 30%;
+	background-color: #fefefe;
+	border:1px solid grey;
+}
+
+nav li{
+	width: 100%;
+	border-bottom: 1px solid black;
+}

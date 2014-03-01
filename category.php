@@ -8,9 +8,16 @@
 </head>
 
 <body>
-	<h1>index.php</h1>
-	<?php the_post();?>
-	<?php the_content( );?>
+	
+		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+		<!-- post -->
+		<p><?php the_title();?></p>
+		<?php endwhile; ?>
+		<!-- post navigation -->
+		<?php else: ?>
+		<!-- no posts found -->
+		<?php endif; ?>
+	
 	
 </body>
 </html>

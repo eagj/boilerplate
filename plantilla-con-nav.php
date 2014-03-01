@@ -1,3 +1,10 @@
+<?php 
+/*
+Template Name: Plantilla con Nav
+*/
+ ?>
+
+
 <DOCTYPE! html>
 <html>
 <head>
@@ -8,9 +15,10 @@
 </head>
 
 <body>
-	<h1>index.php</h1>
+	<h1>Pagina(page.php): <?php the_title();?></h1>
 	<?php the_post();?>
 	<?php the_content( );?>
+	<a href="<?php bloginfo('home') ?>">Ir al inicio</a>
 	
 </body>
 </html>

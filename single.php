@@ -8,9 +8,10 @@
 </head>
 
 <body>
-	<h1>index.php</h1>
+	<h1>Entrada o articulo </h1>
 	<?php the_post();?>
 	<?php the_content( );?>
+	<!-- <img src="<?php bloginfo(template_url); ?>/screenshot.png"/> -->
 	
 </body>
 </html>
