@@ -8,8 +8,7 @@
 </head>
 
 <body>
-	<h1>hola k pasa</h1>
-	<!-- <img src="<?php bloginfo(template_url); ?>/screenshot.png"/> -->
+	<h1>bloginfo</h1>	
 	<ul>
 		<li>Con "name" mostramos el titulo del blog.
 			<ul>	
