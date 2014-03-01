@@ -11,5 +11,4 @@ Template Name: Plantilla con NAV
 	<a href="<?php bloginfo(home);?>">Ir al inicio</a>
 	<?php include("menu-extra.php");?>
 	
-</body>
-</html>
+<?php get_footer(); ?>

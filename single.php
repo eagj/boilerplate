@@ -6,5 +6,4 @@
 	<?php the_content( );?>
 	<!-- <img src="<?php bloginfo(template_url); ?>/screenshot.png"/> -->
 	
-</body>
-</html>
+<?php get_footer(); ?>

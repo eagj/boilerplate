@@ -1,3 +1,9 @@
+/*
+Theme Name: Wordpress-Boilerplate
+Author:EAGJ
+Description: Tema creado para el curso de diseño en WP de escuela.IT
+*/
+
 li ul li {
 	margin-bottom: 20px;
 	color:grey;
@@ -21,4 +27,9 @@ nav{
 nav li{
 	width: 100%;
 	border-bottom: 1px solid black;
+}
+
+aside{
+	float: right;
+	width: 14%;
 }

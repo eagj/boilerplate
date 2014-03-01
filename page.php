@@ -6,5 +6,4 @@
 	<?php the_content( );?>
 	<a href="<?php bloginfo(home);?>">Ir al inicio</a>
 	
-</body>
-</html>
+<?php get_footer(); ?>

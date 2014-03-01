@@ -4,5 +4,4 @@
 	<h1>index.php</h1>
 	<?php the_post();?>
 	<?php the_content( );?>
-</body>
-</html>
+<?php get_footer(); ?>

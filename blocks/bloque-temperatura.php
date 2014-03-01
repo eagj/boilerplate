@@ -1,0 +1,1 @@
+<p>La temperatura es de 20º</p>

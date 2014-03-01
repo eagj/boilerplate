@@ -12,5 +12,4 @@
 	<?php endif; ?>
 	
 	
-</body>
-</html>
+<?php get_footer(); ?>
