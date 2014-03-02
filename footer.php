@@ -1,5 +1,8 @@
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<p>jquery</p>
-	<?php wp_footer(); ?>
+<footer>
+	<small><a href="#">Copyright</a></small>
+	<small><a href="#">2014</a></small>
+	<small><a href="#">quique@eagj.net</a></small>
+</footer>
+<?php wp_footer(); ?>
 </body>
 </html>

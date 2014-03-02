@@ -1,9 +1,5 @@
-<?php get_header(); ?>
+<?php get_header('page'); ?>
 
-<body>
-	<h1>Pagina(page.php): <?php the_title();?></h1>
-	<?php the_post();?>
-	<?php the_content( );?>
-	<a href="<?php bloginfo(home);?>">Ir al inicio</a>
-	
+<?php get_template_part("the_loop"); ?>
+
 <?php get_footer(); ?>

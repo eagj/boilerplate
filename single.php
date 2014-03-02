@@ -1,9 +1,5 @@
-<?php get_header(); ?>
+<?php get_header('single'); ?>
 
-<body>
-	<h1>Entrada o articulo </h1>
-	<?php the_post();?>
-	<?php the_content( );?>
-	<!-- <img src="<?php bloginfo(template_url); ?>/screenshot.png"/> -->
-	
+<?php get_template_part("the_loop_single"); ?>
+
 <?php get_footer(); ?>
