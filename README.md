@@ -1,0 +1,4 @@
+boilerplate
+===========
+
+Plantilla curso Wordpress
